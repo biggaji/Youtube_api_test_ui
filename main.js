@@ -28,10 +28,16 @@ const hourOfTheDay = new Date().getHours(24);
 // console.log(hourOfTheDay)
 
 (() => {
-    if (hourOfTheDay >= 19) {
+    if (hourOfTheDay >= 12 && hourOfTheDay <= 18) {
+        greetings.innerHTML = "Hi, Good Afternoon!"
+        // } else if (hourOfTheDay < 19) {
+        //     greetings.innerHTML = "Hi, Good Morning!"
+    } else if (hourOfTheDay >= 19 && hourOfTheDay <= 24) {
         body.classList.toggle("toggleDarkmode");
         greetings.innerHTML = "Hi, Good Evening";
     } else {
+        // darkModeBtn.style.display = "none";
+        // greetings.innerHTML = "Hi, How are you doing?"
         greetings.innerHTML = "Hi, Good Morning!"
     }
 })()
