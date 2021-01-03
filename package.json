@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/biggaji/Youtube_api_test_ui/issues"
   },
-  "homepage": "https://github.com/biggaji/Youtube_api_test_ui#readme"
+  "homepage": "https://github.com/biggaji/Youtube_api_test_ui#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0"
+  }
 }
