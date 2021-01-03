@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 20px;
+  margin: 10px 0;
+  padding: 12px 0;
+}
+
+.greeting_container {
+  padding: 2px 20px;
+}
+.greeting_container .greeting_text {
+  color: inherit;
+}
+
+.darkmode {
+  border: 1px dashed gray;
+  padding: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.toggleDarkmode {
+  background-color: #555;
+  color: #fff !important;
+}
+
+.toggleWhitemode {
+  background-color: #fff;
+  color: black !important;
+}
+
+.dropdown_key_box .youtube-link {
+  color: inherit;
+}
+.dropdown_key_box .dropdown_data_ui {
+  border: 1px solid silver;
+  width: 150px;
+  height: auto;
+  margin: 15px 0 7px 0;
+  padding: 5px;
+  display: none;
+}
+.dropdown_key_box .renderUi {
+  display: block;
+}
+/*# sourceMappingURL=main.css.map */

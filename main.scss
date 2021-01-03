@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    // border: 3px solid gainsboro;
+    padding: 20px;
+}
+.nav {
+    // border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 20px;
+    margin: 10px 0;
+    padding: 12px 0;
+}
+.greeting_container {
+    // border: 1px solid teal;
+    padding: 2px 20px;
+    .greeting_text {
+        color: inherit;
+    }
+}
+.darkmode{
+    border: 1px dashed gray;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.toggleDarkmode {
+    background-color: #555;
+    color: #fff !important;
+}
+.toggleWhitemode {
+    background-color: #fff;
+    color: rgb(0,0, 0) !important;
+}
+.dropdown_key_box {
+    .youtube-link {
+        color: inherit;
+    }
+    .dropdown_data_ui {
+        border: 1px solid silver;
+        width: 150px;
+        height: auto;
+        // overflow: auto;
+        margin: 15px 0 7px 0;
+        padding: 5px;
+        display: none;
+    }
+    // .dropdown_data_ui::before {
+    //     content: "";
+    //     border-width: 12px 7px;
+    //     border-style: solid;
+    //     border-color: transparent transparent #555 transparent;
+    //     position: absolute;
+    //     // top: 100%;
+    //     top: 0;
+    //     // left: 50%;
+    //     // margin-left: -5px;
+    // }
+    .renderUi {
+        display: block;
+    }
+}
