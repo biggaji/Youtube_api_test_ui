@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropdown on hover and clicked with youtube channel data</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 </head>
 
@@ -17,7 +19,17 @@
     </div>
     <div class="dropdown_key_box">
         <a href="javascript:void(0)" class="youtube-link">@codestack</a>
-        <div class="dropdown_data_ui">Some dummy data</div>
+        <div class="dropdown_data_ui">
+            <div class="channelDetails">
+                <img src="https://yt3.ggpht.com/yti/ANoDKi7akgi2NQNr8vLtKruEIpIrrxE-TTssUGZm-8dO=s88-c-k-c0x00ffffff-no-rj-mo"
+                    alt="code stack avatar" class="channel_avatar">
+                <p class="channel_name">Code Stack</p>
+            </div>
+            <div class="yt_sub_button">
+                <a href="https://www.youtube.com/channel/UCaNTxRkQ01gMBnL1mgnM_KA?sub_confirmation=1">Subscribe - <span
+                        class="yt_sub_count"></span></a>
+            </div>
+        </div>
     </div>
     <script src="main.js"></script>
 </body>
